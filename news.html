@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sosial Network</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        #menu li:hover {
+            background: rgba(135, 206, 250, 0.2)
+        }
+
+        #menu a {
+            white-space: nowrap;
+        }
+
+        li.material-icons {
+            vertical-align: middle;
+            padding: 7px;
+        }
+
+        span.badge {
+            min-width: 0
+        }
+
+        .small {
+            font-size: 1.2rem !important;
+            padding: 0 !important
+        }
+
+        .collection {
+            border: 0;
+        }
+
+        .collection-item {
+            margin: 1rem 0 !important;
+            border: 1px solid #e0e0e0
+        }
+
+        #images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #images img {
+            width: 100%;
+            margin: 1rem;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .mainrow {
+                padding: 0 50px;
+            }
+
+            #images {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            #images img {
+                padding: 0 15px;
+            }
+
+            .z-depth-2 {
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+		<nav class="blue darken-4">
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo left">SN</a>
+					<div class="right">
+						<a href="index.html"><img src="img/av_64.png" alt="" class="left responsive-img "></a>
+						<a href="login.html"><span class="">Luella Hubbart</span></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row mainrow">
+				<div class="col m3 l2">
+					<ul id="menu">
+						<li>
+							<a href="index.html">
+								<i class="material-icons">assignment_ind</i>
+								My Profile
+							</a>
+						</li>
+						<li>
+							<a href="news.html">
+								<i class="material-icons">chrome_reader_mode</i>
+								News
+							</a>
+						</li>
+						<li>
+							<a href="message.html">
+								<i class="material-icons">email</i>
+								Messages
+								<span class="new badge blue darken-4" data-badge-caption="">4</span>
+							</a>
+						</li>
+						<li>
+							<a href="friends.html">
+								<i class="material-icons">face</i>
+								Friends
+							</a>
+						</li>
+						<li>
+							<a href="events.html">
+								<i class="material-icons">event_available</i>
+								Events
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+                <div class="col s12 m12 l10">
+                    <div style="overflow: auto">
+                        <h4 class="left">NEWS</h4>
+                        <span class="right" style="margin: 1.52rem 0">
+                            <a class="btn-floating waves-effect waves-light blue darken-4"><i
+                                    class="material-icons">add</i></a>
+                        </span>
+                    </div>
+                    <div>
+                        <div class="z-depth-2" style="padding: 20px">
+                            <div style="overflow: auto;">
+                                <img src="img/avatar_1.png" alt="" class="circle left">
+                                <span class="title"><b>Pranav Talley</b></span>
+                                <br><i class="small material-icons">date_range</i> July 24
+                            </div>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium molestias aliquid
+                                odit atque illum consectetur sapiente, culpa provident cum praesentium. Eligendi,
+                                magnam! Deleniti, officiis ut.</p>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="z-depth-2" style="padding: 20px">
+                            <div style="overflow: auto;">
+                                <img src="img/avatar_2.png" alt="" class="circle left">
+                                <span class="title"><b>Serena Perldns</b></span>
+                                <br><i class="small material-icons">date_range</i> May 5
+                            </div>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium molestias aliquid
+                                odit atque illum consectetur sapiente, culpa provident cum praesentium. Eligendi,
+                                magnam! Deleniti, officiis ut.</p>
+                            <div id="images">
+                                <img class="materialboxed responsive-img" width="200px" src="img/1.jpg">
+                                <img class="materialboxed responsive-img" width="200px" src="img/2.jpg">
+                                <img class="materialboxed responsive-img" width="200px" src="img/3.jpg">
+                                <img class="materialboxed responsive-img" width="200px" src="img/4.jpg">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="z-depth-2" style="padding: 20px">
+                                <div style="overflow: auto;">
+                                    <img src="img/avatar_3.png" alt="" class="circle left">
+                                    <span class="title"><b>Lyndsey Thomson</b></span>
+                                    <br><i class="small material-icons">date_range</i> August 14
+                                </div>
+                                <p>Lorem ipsum dolor sit, </p>
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="img/7.jpg" style="height:200px; object-fit:cover; ">
+                                                <span class="card-title" style="background:rgba(0,0,0, .5);">Ause I
+                                                    require littquire little markup to use effectivel </span>
+                                            </div>
+                                            <div class="card-content">
+                                                <p>I am a very simple card. I am good at containing small bits of
+                                                    inforod at containing small bits of inforod at containing small bits
+                                                    of informam good at containing small bits of informam good at
+                                                    containing small bits of information.
+                                                    I am convenient because I require little markup to use effectively.
+                                                </p>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">Somewebsite.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

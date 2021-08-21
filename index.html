@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sosial Network</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<style>
+		#menu li:hover {
+			background: rgba(135, 206, 250, 0.2);
+		}
+
+		#menu a {
+			white-space: nowrap;
+		}
+
+		li.material-icons {
+			vertical-align: middle;
+			padding: 7px;
+		}
+
+		span.badge {
+			min-width: 0
+		}
+
+		.small {
+			font-size: 1.2rem !important;
+			padding: 0 !important
+		}
+
+		.collection {
+			border: 0;
+		}
+
+		.collection-item {
+			margin: 1rem 0 !important;
+			border: 1px solid #e0e0e0
+		}
+
+		@media only screen and (min-width: 768px) {
+			.mainrow {
+				padding: 0 50px;
+			}
+
+			#friends p {
+				text-align: center;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="blue darken-4">
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo left">SN</a>
+					<div class="right">
+						<a href="index.html"><img src="img/av_64.png" alt="" class="left responsive-img "></a>
+						<a href="login.html"><span class="">Luella Hubbart</span></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row mainrow">
+				<div class="col m3 l2">
+					<ul id="menu">
+						<li>
+							<a href="index.html">
+								<i class="material-icons">assignment_ind</i>
+								My Profile
+							</a>
+						</li>
+						<li>
+							<a href="news.html">
+								<i class="material-icons">chrome_reader_mode</i>
+								News
+							</a>
+						</li>
+						<li>
+							<a href="message.html">
+								<i class="material-icons">email</i>
+								Messages
+								<span class="new badge blue darken-4" data-badge-caption="">4</span>
+							</a>
+						</li>
+						<li>
+							<a href="friends.html">
+								<i class="material-icons">face</i>
+								Friends
+							</a>
+						</li>
+						<li>
+							<a href="events.html">
+								<i class="material-icons">event_available</i>
+								Events
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="left col s12 m6 l4" style="display:flex;flex-direction:column;">
+					<div class="">
+						<div class="card">
+							<div class="card-image" style="text-align:center;padding:50px 0;margin:20px 0 0 0">
+								<img src="img/av_64.png" style="display:inline-block;width:200px;" />
+							</div>
+							<div class="card-action" style="text-align:center;">
+								<a class="waves-effect  blue lighten-1 waves-light btn-small"
+									style="width:200px;display:inline-block;">EDIT</a>
+							</div>
+						</div>
+					</div>
+					<div class="">
+						<div class="card">
+							<div class="card-content">
+								<span class="card-title "> Friends(245):</span>
+							</div>
+							<div id="friends" class="card-image"
+								style="display: grid; grid-template-columns: auto auto auto;padding:0 40px;">
+								<div>
+									<img src="img/avatar_1.png" />
+									<p>Hossain</p>
+								</div>
+								<div>
+									<img src="img/avatar_2.png" />
+									<p>Jemma</p>
+								</div>
+								<div>
+									<img src="img/avatar_3.png" />
+									<p>Cerrys</p>
+								</div>
+								<div>
+									<img src="img/avatar_2.png" />
+									<p>Ciara</p>
+								</div>
+								<div>
+									<img src="img/avatar_1.png" />
+									<p>Selina</p>
+								</div>
+								<div>
+									<img src="img/avatar_2.png" />
+									<p>Bertha</p>
+								</div>
+								<div>
+									<img src="img/avatar_3.png" />
+									<p>Mindy</p>
+								</div>
+								<div>
+									<img src="img/avatar_2.png" />
+									<p>Tonisha</p>
+								</div>
+								<div>
+									<img src="img/avatar_1.png" />
+									<p>Virgil</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m6 l6">
+					<div class="card " style="margin:20px 0 0 0;">
+						<div class="card-content black-text">
+							<span class="card-title" style="padding:10px 0;">Luella Hubbard</span>
+							<p style="color:blue;">Birthday:August 13</br>
+								City:New Orleans</p>
+						</div>
+						<div class="card-action"
+							style="text-align:center;display:flex; flex-direction:row; justify-content:space-between;">
+							<a href="#">245</br>friends</a>
+							<a href="#">23</br>events</a>
+							<a href="#">456</br>media</a>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="col s12 m6 l6">
+					<div class="card " style="margin:20px 0 0 0;">
+						<div class="card-content" style="overflow: auto;">
+							<img src="img/av_64.png" alt="" class="circle left">
+							<span class="title"><b>Serena Perldns</b></span>
+							<br><i class="small material-icons">date_range</i> Apr 1
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of inforod at containing
+								small bits of inforod at containing small bits of informam good at containing small bits
+								of informam good at containing small bits of information.
+								I am convenient because I require little markup to use effectively.</p>
+						</div>
+						<div class="card-action" style="color:#aeea00;">
+							<i class="small material-icons">favorite </i><span style="margin:0 10px;">342</span>
+							<i class="small material-icons">chat</i><span style="margin:0 10px;">149</span>
+							<i class="small material-icons">reply</i>
+						</div>
+					</div>
+				</div>
+
+				<div class=" right col s12 m6 l6">
+					<div class="card " style="margin:20px 0 0 0;">
+						<div class="card-content" style="overflow: auto;">
+							<img src="img/av_64.png" alt="" class="circle left">
+							<span class="title"><b>Serena Perldns</b></span>
+							<br><i class="small material-icons">date_range</i> Mar 25
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of inforod at containing
+								small bits of inforod at containing small bits of informam good at containing small bits
+								of informam good at containing small bits of information.
+								I am convenient because I require little markup to use effectively.</p>
+						</div>
+						<div class="card-action" style="color:#aeea00;">
+							<i class="small material-icons">favorite </i><span style="margin:0 10px;">398</span>
+							<i class="small material-icons">chat</i><span style="margin:0 10px;">78</span>
+							<i class="small material-icons">reply</i>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
